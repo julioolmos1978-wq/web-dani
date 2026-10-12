@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dani Olmos Tattoo — Especialista en tatuaje tradicional y neojaponés (Irezumi). Diseños originales de autor, espaldas completas, mangas y piezas exclusivas. Reserva tu cita online.">
+  <meta name="keywords" content="tatuaje japones, irezumi, dani olmos tattoo, tatuador barcelona, tatuador madrid, dragon japones, hannya, carpa koi, tatuaje manga">
+  <meta name="theme-color" content="#0b0b0e">
+  <title>Dani Olmos Tattoo — Tatuaje Japonés Original & Irezumi de Autor</title>
+
+  <!-- Google Fonts: Cinzel & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Serif+JP:wght@600;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra de aviso superior -->
+  <aside class="top-announcement" aria-label="Aviso de citas">
+    <div class="announcement-content">
+      <span class="kanji-badge">刺青</span>
+      <span>Agenda abierta para proyectos grandes y mangas de estilo japonés • Citas personalizadas</span>
+      <a href="#reserva" class="announcement-link">Consultar fechas</a>
+    </div>
+  </aside>
+
+  <!-- Encabezado / Navegación Principal -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#inicio" class="logo" aria-label="Dani Olmos Tattoo Inicio">
+        <span class="logo-kanji">彫</span>
+        <div class="logo-text">
+          <span class="logo-name">DANI OLMOS</span>
+          <span class="logo-sub">TATTOO STUDIO • 刺青</span>
+        </div>
+      </a>
+
+      <!-- Menú de escritorio -->
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#galeria" class="nav-link">Obras</a></li>
+          <li><a href="#simbologia" class="nav-link">Simbología</a></li>
+          <li><a href="#artista" class="nav-link">El Artista</a></li>
+          <li><a href="#calculadora" class="nav-link">Asesor</a></li>
+          <li><a href="#cuidados" class="nav-link">Cuidados</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="#reserva" class="btn btn-primary" id="btn-header-booking">
+          <span>Reservar Cita</span>
+          <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="inicio">
+      <div class="hero-bg-wrapper">
+        <img src="./assets/img/hero-studio.jpg" alt="Estudio de Tatuaje Japonés Dani Olmos" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="tag-dot"></span>
+          <span class="tag-text">ARTE JAPONÉS DE AUTOR • IREVisual & WABORI</span>
+        </div>
+        <h1 class="hero-title">
+          EL ARTE QUE HABITA <br>
+          <span class="text-gradient">EN TU PIEL</span> PARA SIEMPRE
+        </h1>
+        <p class="hero-description">
+          Diseños originales y piezas exclusivas de tradición y vanguardia japonesa concebidas por <strong>Dani Olmos</strong>. Cada obra se esculpe a medida para armonizar con el flujo anatómico de tu cuerpo.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#reserva" class="btn btn-primary btn-lg">
+            <span>Pedir Cita / Presupuesto</span>
+          </a>
+          <a href="#galeria" class="btn btn-secondary btn-lg">
+            <span>Explorar Galería</span>
+          </a>
+        </div>
+
+        <div class="hero-stats-strip">
+          <div class="stat-pill">
+            <span class="stat-num">+12</span>
+            <span class="stat-desc">Años de Maestría</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-pill">
+            <span class="stat-num">100%</span>
+            <span class="stat-desc">Diseños Originales</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-pill">
+            <span class="stat-num">0%</span>
+            <span class="stat-desc">Copias de Catálogo</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-pill">
+            <span class="stat-num">Grado A+</span>
+            <span class="stat-desc">Asepsia Hospitalaria</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#galeria" class="scroll-down-hint" aria-label="Desplazarse a la galería">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+        <span class="scroll-text">Descubre la obra</span>
+      </a>
+    </section>
+
+    <!-- GALERÍA DE OBRAS / PORTFOLIO -->
+    <section class="section gallery-section" id="galeria">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-pretitle">PORTAFOLIO EXCLUSIVO • 作品集</span>
+          <h2 class="section-title">Diseños Originales de Autor</h2>
+          <p class="section-subtitle">
+            Cada pieza es única e irrepetible. Diseñada desde cero respetando las proporciones, las estaciones y la rica iconografía tradicional nipona.
+          </p>
+        </div>
+
+        <!-- Filtros de Categoría -->
+        <div class="filter-bar" role="tablist" aria-label="Filtro de obras">
+          <button class="filter-btn active" data-filter="all">Todas las Piezas</button>
+          <button class="filter-btn" data-filter="espalda">Espaldas Completas</button>
+          <button class="filter-btn" data-filter="manga">Mangas & Brazos</button>
+          <button class="filter-btn" data-filter="pierna">Piernas</button>
+          <button class="filter-btn" data-filter="pecho">Pecho & Torso</button>
+        </div>
+
+        <!-- Grid de Obras -->
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Obra 1: Dragón Ryu -->
+          <article class="gallery-card" data-category="espalda" tabindex="0">
+            <div class="card-media">
+              <img src="./assets/img/dragon-ryu.jpg" alt="Tatuaje Japonés de Dragón Ryu en Espalda Completa por Dani Olmos" loading="lazy">
+              <div class="card-badge">Espalda Completa</div>
+              <div class="card-overlay">
+                <button class="view-details-btn" data-id="1">Ver Detalles de la Pieza</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="kanji-sub">龍 • RYŪ</span>
+                <span class="card-sessions">4 Sesiones • Finalizado</span>
+              </div>
+              <h3 class="card-title">Dragón Celestial & Olas de Kanagawa</h3>
+              <p class="card-excerpt">
+                Pieza monumental que cubre espalda entera y media manga. Tintas Sumi negras profundas con acentos en bermellón lacado y flores de Sakura flotantes.
+              </p>
+              <div class="card-footer">
+                <span class="card-style-tag">Irezumi Tradicional</span>
+                <a href="#reserva" class="card-action-link" data-design="Dragón Ryu Espalda">Quiero un proyecto similar &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Obra 2: Hannya & Crisantemo -->
+          <article class="gallery-card" data-category="manga" tabindex="0">
+            <div class="card-media">
+              <img src="./assets/img/hannya-mask.jpg" alt="Manga Japonesa de Máscara Hannya y Crisantemos por Dani Olmos" loading="lazy">
+              <div class="card-badge">Manga Entera</div>
+              <div class="card-overlay">
+                <button class="view-details-btn" data-id="2">Ver Detalles de la Pieza</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="kanji-sub">般若 • HANNYA</span>
+                <span class="card-sessions">3 Sesiones • Finalizado</span>
+              </div>
+              <h3 class="card-title">Máscara Hannya & Crisantemo Imperial</h3>
+              <p class="card-excerpt">
+                Composición de brazo completo donde el rostro dramático del Hannya emerge entre nubes de viento y pétalos dorados de Kiku.
+              </p>
+              <div class="card-footer">
+                <span class="card-style-tag">Neo-Japonés</span>
+                <a href="#reserva" class="card-action-link" data-design="Hannya Manga">Quiero un proyecto similar &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Obra 3: Carpa Koi -->
+          <article class="gallery-card" data-category="pierna" tabindex="0">
+            <div class="card-media">
+              <img src="./assets/img/koi-fish.jpg" alt="Tatuaje Japonés de Carpa Koi y Loto en Pierna por Dani Olmos" loading="lazy">
+              <div class="card-badge">Pierna Completa</div>
+              <div class="card-overlay">
+                <button class="view-details-btn" data-id="3">Ver Detalles de la Pieza</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="kanji-sub">鯉 • KOI</span>
+                <span class="card-sessions">3 Sesiones • Finalizado</span>
+              </div>
+              <h3 class="card-title">Carpa Nishikigoi a Contracorriente</h3>
+              <p class="card-excerpt">
+                Símbolo de perseverancia y superación. La carpa asciende entre remolinos turbulentos y flores de loto de color rosa pálido con fondos negros sólidos.
+              </p>
+              <div class="card-footer">
+                <span class="card-style-tag">Wabori Clásico</span>
+                <a href="#reserva" class="card-action-link" data-design="Koi Pierna">Quiero un proyecto similar &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Obra 4: Tigre Tora -->
+          <article class="gallery-card" data-category="pecho" data-category-extra="manga" tabindex="0">
+            <div class="card-media">
+              <img src="./assets/img/tiger-tora.jpg" alt="Tatuaje Munewari Japonés de Tigre y Hojas de Arce por Dani Olmos" loading="lazy">
+              <div class="card-badge">Pecho & Torso (Munewari)</div>
+              <div class="card-overlay">
+                <button class="view-details-btn" data-id="4">Ver Detalles de la Pieza</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="kanji-sub">虎 • TORA</span>
+                <span class="card-sessions">4 Sesiones • Finalizado</span>
+              </div>
+              <h3 class="card-title">Tigre Feroz & Hojas de Arce Momiji</h3>
+              <p class="card-excerpt">
+                Composición asimétrica estilo Munewari. La mirada penetrante del tigre y las hojas de otoño simbolizan el coraje y la protección contra la adversidad.
+              </p>
+              <div class="card-footer">
+                <span class="card-style-tag">Irezumi Avanzado</span>
+                <a href="#reserva" class="card-action-link" data-design="Tigre Pecho">Quiero un proyecto similar &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUÍA INTERACTIVA DE SIMBOLOGÍA JAPONESA -->
+    <section class="section symbolism-section" id="simbologia">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-pretitle">FILOSOFÍA DEL IREZUMI • 象徴</span>
+          <h2 class="section-title">Significado de los Motivos Tradicionales</h2>
+          <p class="section-subtitle">
+            En el tatuaje japonés cada elemento tiene un propósito profundo. Descubre qué significado resuena con tu historia antes de iniciar tu proyecto.
+          </p>
+        </div>
+
+        <div class="symbol-cards-grid">
+          <div class="symbol-card">
+            <div class="symbol-kanji">龍</div>
+            <h3 class="symbol-title">Ryu (El Dragón)</h3>
+            <span class="symbol-meaning">Sabiduría • Protección • Dominio Celestial</span>
+            <p class="symbol-text">
+              A diferencia de los dragones occidentales, el dragón oriental es benefactor. Representa la fuerza benévola, el dominio sobre el agua y el cielo, y la protección del portador ante cualquier infortunio.
+            </p>
+          </div>
+
+          <div class="symbol-card">
+            <div class="symbol-kanji">鯉</div>
+            <h3 class="symbol-title">Koi (La Carpa)</h3>
+            <span class="symbol-meaning">Perseverancia • Victoria • Transformación</span>
+            <p class="symbol-text">
+              Basada en la leyenda de la Puerta del Dragón: una carpa que nada contra la corriente y salta la cascada se transforma en dragón. Simboliza superar grandes dificultades en la vida.
+            </p>
+          </div>
+
+          <div class="symbol-card">
+            <div class="symbol-kanji">般若</div>
+            <h3 class="symbol-title">Hannya (Máscara)</h3>
+            <span class="symbol-meaning">Protección • Pasión • Ahuyentar Espíritus</span>
+            <p class="symbol-text">
+              Originaria del teatro Noh. Aunque su rostro refleja la ira y el desengaño, tradicionalmente se usa como un poderoso talismán protector que absorbe y repele las energías negativas.
+            </p>
+          </div>
+
+          <div class="symbol-card">
+            <div class="symbol-kanji">虎</div>
+            <h3 class="symbol-title">Tora (El Tigre)</h3>
+            <span class="symbol-meaning">Coraje • Fortaleza • Guardián del Viento</span>
+            <p class="symbol-text">
+              El tigre representa el poder terrenal absoluto, gobernando el otoño y la dirección oeste. Frecuentemente se empareja con el dragón para simbolizar el equilibrio entre cielo y tierra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN EL ARTISTA DANI OLMOS -->
+    <section class="section artist-section" id="artista">
+      <div class="section-container">
+        <div class="artist-grid">
+          <div class="artist-visual">
+            <div class="artist-frame">
+              <img src="./assets/img/hero-studio.jpg" alt="Dani Olmos en su estudio tatuando" class="artist-img">
+              <div class="artist-stamp">
+                <span class="stamp-kanji">彫師</span>
+                <span class="stamp-label">HORISHI DANI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-info">
+            <span class="section-pretitle">SOBRE EL TATUADOR • 彫師</span>
+            <h2 class="section-title">Dani Olmos</h2>
+            <p class="artist-lead">
+              «Un tatuaje japonés no es solo tinta bajo la piel; es una armadura viva que crece y respira contigo.»
+            </p>
+            <p class="artist-bio">
+              Con más de 12 años dedicados en cuerpo y alma a estudiar las escuelas clásicas del tatuaje japonés (Irezumi, Horimono y Wabori), me enfoco en crear <strong>diseños completamente originales</strong>. No realizo copias de internet ni diseños repetidos de catálogo.
+            </p>
+            <p class="artist-bio">
+              Cada proyecto comienza con un análisis de la fisonomía y el movimiento muscular del cliente. Mi trabajo equilibra el respeto por la iconografía milenaria con una lectura moderna, líneas limpias y contrastes sólidos que resisten impolutos el paso de las décadas.
+            </p>
+
+            <div class="artist-features">
+              <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div>
+                  <strong>Diseño Personalizado y Exclusivo</strong>
+                  <p>Bocetado a mano y adaptado a tu anatomía antes de la aguja.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div>
+                  <strong>Materiales Premium & Esterilización</strong>
+                  <p>Pigmentos homologados de máxima saturación y agujas desechables de un solo uso.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div>
+                  <strong>Seguimiento de Cicatrización Integral</strong>
+                  <p>Acompañamiento cercano durante todo el proceso de curación.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASESOR / CALCULADORA DE PROYECTO INTERACTIVA -->
+    <section class="section calculator-section" id="calculadora">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-pretitle">PLANIFICA TU PROYECTO • 見積もり</span>
+          <h2 class="section-title">Asesor Interactivo de Tatuaje</h2>
+          <p class="section-subtitle">
+            Selecciona la zona y el motivo que tienes en mente para obtener una orientación sobre sesiones, horas aproximadas y preparación recomendada.
+          </p>
+        </div>
+
+        <div class="calculator-card">
+          <div class="calc-steps-grid">
+            <!-- Paso 1: Zona del cuerpo -->
+            <div class="calc-group">
+              <label class="calc-label">1. Selecciona la zona del cuerpo:</label>
+              <div class="options-grid" id="opt-zone">
+                <button type="button" class="opt-btn active" data-zone="manga-entera" data-sessions="3-4" data-hours="18-24">
+                  <span class="opt-name">Manga Completa</span>
+                  <span class="opt-sub">Hombro a muñeca</span>
+                </button>
+                <button type="button" class="opt-btn" data-zone="media-manga" data-sessions="2-3" data-hours="10-14">
+                  <span class="opt-name">Media Manga</span>
+                  <span class="opt-sub">Hombro a codo</span>
+                </button>
+                <button type="button" class="opt-btn" data-zone="espalda" data-sessions="5-7" data-hours="30-45">
+                  <span class="opt-name">Espalda Entera</span>
+                  <span class="opt-sub">Nuca a glúteos</span>
+                </button>
+                <button type="button" class="opt-btn" data-zone="pierna" data-sessions="3-5" data-hours="18-28">
+                  <span class="opt-name">Pierna / Gemelo</span>
+                  <span class="opt-sub">Pieza completa</span>
+                </button>
+                <button type="button" class="opt-btn" data-zone="pecho" data-sessions="2-3" data-hours="12-16">
+                  <span class="opt-name">Pecho / Costillas</span>
+                  <span class="opt-sub">Munewari frontal</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Paso 2: Motivo principal -->
+            <div class="calc-group">
+              <label class="calc-label">2. Motivo o criatura principal:</label>
+              <div class="options-grid" id="opt-motif">
+                <button type="button" class="opt-btn active" data-motif="Dragón Ryu">
+                  <span class="opt-name">Dragón (Ryū)</span>
+                  <span class="opt-sub">Fuerza y agua</span>
+                </button>
+                <button type="button" class="opt-btn" data-motif="Máscara Hannya / Oni">
+                  <span class="opt-name">Hannya / Oni</span>
+                  <span class="opt-sub">Protección y mística</span>
+                </button>
+                <button type="button" class="opt-btn" data-motif="Carpa Koi">
+                  <span class="opt-name">Carpa Koi</span>
+                  <span class="opt-sub">Superación personal</span>
+                </button>
+                <button type="button" class="opt-btn" data-motif="Tigre Tora">
+                  <span class="opt-name">Tigre (Tora)</span>
+                  <span class="opt-sub">Coraje indomable</span>
+                </button>
+                <button type="button" class="opt-btn" data-motif="Composición Floral y Olas">
+                  <span class="opt-name">Floral / Botánico</span>
+                  <span class="opt-sub">Crisantemos, Sakura, Loto</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resultado Estimado -->
+          <div class="calc-result-box" id="calc-result">
+            <div class="calc-result-header">
+              <span class="res-badge">Orientación Estimada</span>
+              <h3 class="res-title" id="res-title">Manga Completa con Dragón (Ryū)</h3>
+            </div>
+            <div class="res-metrics">
+              <div class="res-metric">
+                <span class="metric-label">Sesiones Sugeridas</span>
+                <span class="metric-val" id="res-sessions">3 - 4 sesiones</span>
+              </div>
+              <div class="res-metric">
+                <span class="metric-label">Tiempo Total Aprox.</span>
+                <span class="metric-val" id="res-hours">18 - 24 horas</span>
+              </div>
+              <div class="res-metric">
+                <span class="metric-label">Espaciado Entre Sesiones</span>
+                <span class="metric-val">3 a 4 semanas</span>
+              </div>
+            </div>
+            <div class="calc-cta">
+              <button type="button" class="btn btn-primary" id="btn-apply-calc">
+                <span>Llevar esta idea a la reserva &rarr;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROTOCOLO DE CUIDADOS POSTERIORES (AFTERCARE) -->
+    <section class="section care-section" id="cuidados">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-pretitle">CUIDADOS • 手入れ</span>
+          <h2 class="section-title">El Cuidado de tu Tatuaje Japonés</h2>
+          <p class="section-subtitle">
+            El 50% del resultado final depende de cómo cuides tu piel durante las primeras tres semanas de cicatrización.
+          </p>
+        </div>
+
+        <div class="care-steps-grid">
+          <div class="care-card">
+            <span class="step-num">01</span>
+            <h3 class="step-title">Primeras 24 Horas</h3>
+            <p class="step-text">
+              Mantén el film protector puesto las horas indicadas. Al retirarlo, lava la zona suavemente con agua tibia y jabón neutro antibacteriano usando solo tus manos limpias. Seca a toques suaves con papel de cocina, nunca con toalla.
+            </p>
+          </div>
+
+          <div class="care-card">
+            <span class="step-num">02</span>
+            <h3 class="step-title">Hidratación y Crema</h3>
+            <p class="step-text">
+              Aplica una capa muy fina y homogénea de crema cicatrizante recomendada 2 o 3 veces al día. No satures el poro: el tatuaje necesita respirar para curar correctamente.
+            </p>
+          </div>
+
+          <div class="care-card">
+            <span class="step-num">03</span>
+            <h3 class="step-title">Protección Estricta</h3>
+            <p class="step-text">
+              Prohibido nadar en piscinas, playa o sumergirte en bañeras durante 15 días. Evita saunas y el sudor excesivo por deporte intenso los primeros días. Jamás arranques las pielecillas o costras que salgan.
+            </p>
+          </div>
+
+          <div class="care-card">
+            <span class="step-num">04</span>
+            <h3 class="step-title">Mantenimiento de por Vida</h3>
+            <p class="step-text">
+              Una vez curado, utiliza siempre protector solar SPF 50+ al exponerte al sol. Esto mantendrá los negros sumi intensos y los colores vivos año tras año.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULARIO DE RESERVA DE CITA / CONSULTA -->
+    <section class="section booking-section" id="reserva">
+      <div class="section-container">
+        <div class="booking-wrapper">
+          <div class="booking-header text-center">
+            <span class="section-pretitle">PROYECTOS EXCLUSIVOS • 予約</span>
+            <h2 class="section-title">Solicita tu Cita con Dani Olmos</h2>
+            <p class="section-subtitle">
+              Cuéntame tu idea, la zona que deseas tatuar y disponibilidad. Responderé personalmente con el asesoramiento y propuesta de diseño.
+            </p>
+          </div>
+
+          <form class="booking-form" id="booking-form" novalidate>
+            <div class="form-grid">
+              <!-- Nombre -->
+              <div class="form-field">
+                <label for="client-name" class="form-label">Nombre Completo *</label>
+                <input type="text" id="client-name" name="name" class="form-input" placeholder="Ej. Carlos Martínez" required>
+                <span class="field-error" id="err-name">Por favor introduce tu nombre.</span>
+              </div>
+
+              <!-- Teléfono / WhatsApp -->
+              <div class="form-field">
+                <label for="client-phone" class="form-label">Teléfono / WhatsApp *</label>
+                <input type="tel" id="client-phone" name="phone" class="form-input" placeholder="+34 600 000 000" required>
+                <span class="field-error" id="err-phone">Por favor introduce tu teléfono o WhatsApp.</span>
+              </div>
+
+              <!-- Email -->
+              <div class="form-field">
+                <label for="client-email" class="form-label">Correo Electrónico *</label>
+                <input type="email" id="client-email" name="email" class="form-input" placeholder="tucorreo@ejemplo.com" required>
+                <span class="field-error" id="err-email">Introduce un email válido.</span>
+              </div>
+
+              <!-- Zona del cuerpo -->
+              <div class="form-field">
+                <label for="client-zone" class="form-label">Zona del Cuerpo *</label>
+                <select id="client-zone" name="zone" class="form-select" required>
+                  <option value="">Selecciona una zona...</option>
+                  <option value="Manga Completa (Brazo)">Manga Completa (Brazo)</option>
+                  <option value="Media Manga (Brazo)">Media Manga (Brazo)</option>
+                  <option value="Espalda Completa">Espalda Completa</option>
+                  <option value="Pierna / Gemelo">Pierna / Gemelo</option>
+                  <option value="Pecho / Costillas">Pecho / Costillas (Munewari)</option>
+                  <option value="Otra zona">Otra zona a consultar</option>
+                </select>
+                <span class="field-error" id="err-zone">Selecciona la zona del cuerpo.</span>
+              </div>
+
+              <!-- Motivo preferido -->
+              <div class="form-field">
+                <label for="client-motif" class="form-label">Motivo Japonés Principal</label>
+                <select id="client-motif" name="motif" class="form-select">
+                  <option value="Dragón (Ryū)">Dragón (Ryū)</option>
+                  <option value="Máscara Hannya o Demonio Oni">Máscara Hannya o Demonio Oni</option>
+                  <option value="Carpa Koi (Nishikigoi)">Carpa Koi (Nishikigoi)</option>
+                  <option value="Tigre (Tora)">Tigre (Tora)</option>
+                  <option value="Flores y Olas (Sakura, Crisantemo, Loto)">Flores y Olas (Sakura, Crisantemo, Loto)</option>
+                  <option value="Abierto a la propuesta de Dani">Abierto a la propuesta de Dani</option>
+                </select>
+              </div>
+
+              <!-- Fecha estimada de inicio -->
+              <div class="form-field">
+                <label for="client-date" class="form-label">Preferencia de Fecha</label>
+                <input type="date" id="client-date" name="date" class="form-input">
+              </div>
+            </div>
+
+            <!-- Descripción de la idea -->
+            <div class="form-field full-width">
+              <label for="client-desc" class="form-label">Cuéntame los detalles de tu idea *</label>
+              <textarea id="client-desc" name="description" class="form-textarea" rows="4" placeholder="¿Tienes alguna preferencia de colores, elementos acompañantes, tatuajes previos en la zona o significado especial?" required></textarea>
+              <span class="field-error" id="err-desc">Por favor describe brevemente tu idea.</span>
+            </div>
+
+            <!-- Botones de Acción -->
+            <div class="form-actions-wrap">
+              <button type="submit" class="btn btn-primary btn-lg" id="btn-submit-booking">
+                <span>Enviar Solicitud de Cita</span>
+                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+
+              <button type="button" class="btn btn-whatsapp btn-lg" id="btn-direct-whatsapp">
+                <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.02.79.81-2.94-.19-.3a8.21 8.21 0 0 1-1.26-4.37c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.19-.09-1.12-.55-1.3-.61-.17-.07-.3-.1-.43.1-.12.19-.49.61-.6.74-.11.12-.23.14-.42.05-.19-.09-.81-.3-1.54-.95-.57-.51-.95-1.14-1.06-1.33-.11-.19-.01-.29.08-.38.08-.09.19-.23.28-.35.09-.12.13-.19.19-.33.07-.12.03-.23-.02-.33-.05-.09-.43-1.04-.59-1.42-.16-.38-.32-.33-.43-.33-.11 0-.24-.01-.36-.01-.13 0-.34.05-.51.24-.18.19-.68.66-.68 1.62 0 .95.69 1.88.79 2.01.09.14 1.36 2.08 3.3 2.91.46.2.82.32 1.11.41.47.15.89.13 1.23.08.38-.06 1.12-.46 1.28-.9.16-.44.16-.83.11-.91-.05-.08-.18-.13-.37-.22z"/>
+                </svg>
+                <span>Consultar por WhatsApp Directo</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES (FAQ) -->
+    <section class="section faq-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-pretitle">DUDAS COMUNES • 質問</span>
+          <h2 class="section-title">Preguntas Frecuentes</h2>
+        </div>
+
+        <div class="faq-accordion">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>¿Cuánto se tarda en completar una manga o una espalda completa?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Las mangas completas suelen requerir entre 3 y 4 sesiones (unas 18 a 24 horas en total), mientras que una espalda entera puede requerir de 5 a 7 sesiones. Las sesiones se espacian entre 3 y 4 semanas para permitir una curación perfecta entre capas de sombreado y color.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>¿Puedo ver el diseño antes del día de la sesión?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Sí. Tras la consulta inicial y la toma de medidas anatómicas, elaboro el boceto digital y te lo presento para revisar detalles, composiciones de fondo (viento, agua, flores) y ajustes antes de pinchar.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>¿Haces tapados (cover-ups) de tatuajes antiguos?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>El estilo japonés es uno de los mejores para cover-ups gracias a los fondos de agua negra (Nami) y nubes. Sin embargo, cada caso debe evaluarse individualmente en el estudio o mediante fotos nítidas con buena luz.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>¿Cómo se realiza el pago de la fianza / reserva?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Para formalizar la fecha en el calendario se solicita una señal que se descuenta del precio final del tatuaje. Puede abonarse por Bizum, transferencia o presencialmente en el estudio.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA (FOOTER) -->
+  <footer class="site-footer" id="contacto">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-kanji">彫</span>
+            <div class="logo-text">
+              <span class="logo-name">DANI OLMOS</span>
+              <span class="logo-sub">TATTOO STUDIO • 刺青</span>
+            </div>
+          </div>
+          <p class="footer-bio">
+            Estudio privado especializado en tatuaje tradicional japonés y neojaponés de alta gama. Piezas irrepetibles creadas con rigor y pasión.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Contacto Directo</h4>
+          <ul class="footer-contact-list">
+            <li>📍 <strong>Estudio:</strong> Cita previa personalizada</li>
+            <li>💬 <strong>WhatsApp:</strong> +34 600 123 456</li>
+            <li>✉️ <strong>Email:</strong> info@daniolmostattoo.com</li>
+            <li>⏰ <strong>Horario:</strong> Mar - Sáb: 10:30 a 19:30</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Navegación</h4>
+          <ul class="footer-links-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería de Obras</a></li>
+            <li><a href="#simbologia">Simbología Nipona</a></li>
+            <li><a href="#artista">Sobre Dani Olmos</a></li>
+            <li><a href="#calculadora">Calculadora de Proyecto</a></li>
+            <li><a href="#reserva">Reserva de Citas</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Dani Olmos Tattoo. Todos los derechos reservados. Diseños originales protegidos por autoría.</p>
+        <p class="footer-sub-text">Irezumi, Wabori & Neo-Japanese Ink Art.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL LIGHTBOX PARA DETALLES DE OBRA -->
+  <div class="modal-backdrop hidden" id="piece-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Cerrar modal">&times;</button>
+      <div class="modal-content-grid">
+        <div class="modal-image-col">
+          <img src="" alt="Detalle de tatuaje" id="modal-img" class="modal-artwork-img">
+        </div>
+        <div class="modal-info-col">
+          <span class="modal-badge" id="modal-badge">Pieza Exclusiva</span>
+          <h3 class="modal-title" id="modal-title">Título de la Obra</h3>
+          <span class="modal-kanji-title" id="modal-kanji">龍 • RYU</span>
+
+          <div class="modal-description" id="modal-desc">
+            Descripción detallada...
+          </div>
+
+          <div class="modal-meta-grid">
+            <div class="meta-box">
+              <span class="meta-box-label">Sesiones</span>
+              <span class="meta-box-val" id="modal-sessions">4 sesiones</span>
+            </div>
+            <div class="meta-box">
+              <span class="meta-box-label">Estilo</span>
+              <span class="meta-box-val" id="modal-style">Irezumi Tradicional</span>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <a href="#reserva" class="btn btn-primary" id="btn-modal-reserve">
+              <span>Quiero un proyecto como este</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE CONFIRMACIÓN DE RESERVA -->
+  <div class="modal-backdrop hidden" id="confirm-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="confirm-dialog">
+      <div class="confirm-icon-wrap">✓</div>
+      <h3 class="confirm-title">¡Solicitud Enviada con Éxito!</h3>
+      <p class="confirm-text" id="confirm-msg">
+        Gracias por contactar con Dani Olmos Tattoo. He recibido los detalles de tu proyecto y me pondré en contacto contigo en un plazo de 24 a 48 horas.
+      </p>
+      <div class="confirm-code-box">
+        <span>Código de Solicitud:</span>
+        <strong id="confirm-code">DOT-2026-981</strong>
+      </div>
+      <button class="btn btn-primary" id="btn-close-confirm">Entendido</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
